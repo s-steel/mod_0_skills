@@ -1,0 +1,13 @@
+object Sidecar
+
+attributes:
+ingredients = ["Brandy", "Lemon Juice", "Triple Sec"]
+glassware = "coup"
+is_shaken = true
+amount_of_alcohol = 2
+
+methods:
+add_lime_juice: ingredients = ["Brandy", "Lemon Juice", "Triple Sec", "Lime Juice"]
+put_in_a_collins_glass: glassware = "collins glass"
+stir: is_shaken = false
+make_it_strong: amount_of_alcohol = 2.5
