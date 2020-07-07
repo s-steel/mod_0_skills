@@ -1,0 +1,13 @@
+class Entree
+
+attributes:
+vegetarian (boolean)
+number_of_ingredients (int)
+preparation (string)
+is_dish_spicy (boolean)
+
+methods:
+add_shrimp (vegetarian = false)
+add_olive_oil (add one to number_of_ingredients)
+boil (preparation = "boil")
+add_chili_flakes (is_dish_spicy = true)
