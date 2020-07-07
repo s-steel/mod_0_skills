@@ -1,0 +1,13 @@
+class Cocktail
+
+attributes:
+ingredients (array)
+glassware (string)
+is_shaken (boolean)
+amount_of_alcohol (float/int)
+
+methods:
+add_lime_juice (add "lime juice" to ingredients array)
+put_in_a_collins_glass (glassware = "collins glass")
+stir (is_shaken = false)
+make_it_strong (add .5 to amount_of_alcohol)
