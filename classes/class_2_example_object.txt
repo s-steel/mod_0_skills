@@ -1,0 +1,13 @@
+object Paella
+
+attributes:
+vegetarian = false
+number_of_ingredients = 10
+preparation = "pan_fried"
+is_dish_spicy = false
+
+methods:
+add_shrimp: vegetarian = false
+add_olive_oil: number_of_ingredients = 11
+boil: preparation = "boil"
+add_chili_flakes: is_dish_spicy = true
