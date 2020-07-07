@@ -1,0 +1,18 @@
+food = "pizza"
+
+is_delicious = true
+
+food = "tacos"
+
+num2 = 8
+
+num7 = 45
+
+quotient = num7 / num2
+
+songs = ["Lean on Me", "Getting Jiggy With It", "Nookie"]
+
+songs.slice!(0)
+#the bang (!) operator slices that index out forever.  Without the ! it would be sliced just once.
+
+food.size
